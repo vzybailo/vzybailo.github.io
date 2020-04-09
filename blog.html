@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link rel="stylesheet" href="/assets/styles/app.min.css">
+    <script src="/assets/scripts/bundle.js" defer></script>
+  </head>
+  <body>
+    <div class="visible" id="preloader"> </div>
+    <div class="wrapper">
+      <ul class="menu"> 
+        <li><a href="/index.html">Главная</a></li>
+        <li> <a href="/about.html">Обо мне</a></li>
+        <li><a href="/my-works.html">Мои работы</a></li>
+        <li><a href="/blog.html">Блог</a></li>
+      </ul>
+      <section class="section hero">
+        <div class="hero__socials">
+          <ul class="socials-blog">
+            <li class="socials__item-blog"><a class="social__link vk" href="https://vk.com/vitalzybailo" target="blank">
+                <svg class="icon-blog">
+                  <use xlink:href="assets/images/spritenew.svg#vk"></use>
+                </svg></a></li>
+            <li class="socials__item-blog"><a class="social__link" href="https://github.com/vzybailo" target="blank">
+                <svg class="icon-blog">
+                  <use xlink:href="assets/images/spritenew.svg#git"></use>
+                </svg></a></li>
+            <li class="socials__item-blog"><a class="social__link" href="https://www.linkedin.com/feed/?trk=onboarding-landing" target="blank">
+                <svg class="icon-blog in">
+                  <use xlink:href="assets/images/spritenew.svg#in"></use>
+                </svg></a></li>
+          </ul>
+          <div class="hamburger"><span></span></div>
+          <nav class="hamburger__menu">
+            <ul class="hamburger__list">
+              <li class="hamburger__item"><a class="hamburger__link" href="index.html"> Главная
+                  <div class="block-subtitle-line white-line"></div></a></li>
+              <li class="hamburger__item"><a class="hamburger__link" href="my-works.html"> Мои работы
+                  <div class="block-subtitle-line white-line"></div></a></li>
+              <li class="hamburger__item"><a class="hamburger__link" href="about.html"> Обо мне
+                  <div class="block-subtitle-line white-line">           </div></a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="hero__title">
+          <div class="hero__user user">
+            <div class="user">
+              <div class="user__pic"><img class="welcome__img-pic" src="assets/images/ava.png"></div>
+              <div class="user__info">
+                <div class="user__name">Блог</div>
+                <object class="user__name-pic" data="assets/images/blog_header.svg" type="image/svg+xml">  </object>
+                <div class="user__line"> </div>
+                <div class="user__data">Статьи, которые я написал</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="hero__arrow-btn clickbtn" href="#hero__arrow-btn" type="button">
+          <svg class="hero__arrow-down">
+            <use xlink:href="assets/images/arrow_down.svg#arrow"></use>
+          </svg>
+        </button>
+        <svg class="triangle triangle_fill" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1000 85" preserveaspectratio="none">
+          <polygon class="left" points="0,0 0,86 500.8,86 500.8,75.5"></polygon>
+          <polygon class="right" points="1000,0 1000,86 500,86 500,75.5"> </polygon>
+        </svg>
+      </section>
+      <section class="section articles__wrapper" id="topblock">            
+        <div class="articles">
+          <div class="articles__titles" id="fixed-sidebar">
+            <button id="blog__toggles"></button>
+            <ul class="titles__list">
+              <li class="title__item"><a class="titles__link" href="#article1">Самое важное в SASS</a></li>
+              <li class="title__item"><a class="titles__link" href="#article2">Приемы в верстке, без которых не обходится ни один сайт</a></li>
+              <li class="title__item"><a class="titles__link" href="#article3">Самый необходимы набор Gulp плагинов</a></li>
+              <li class="title__item"><a class="titles__link" href="#article4">Почему я выбрал Pug</a></li>
+            </ul>
+          </div>
+          <div class="articles__block js-section-articles">
+            <div class="articles__version" id="article1">
+              <div class="version__title">Самое важное в SASS</div>
+              <div class="version__date">8 августа 2019</div>
+              <div class="version__text"> 
+                <p>Для меня Sass был настоящим открытием. Долгое время я мучался написанием чистого, или “vanilla” CSS. В случаях с маленькими сайтами все было прекрасно, но на больших проектах CSS быстро отбивается от рук. Отладка превращается в настоящий ночной кошмар.Я познакомился с Sass и все изменилось. С Sass я мог разбить CSS на модули, чтобы упростить поиск проблем. Я мог использовать такие концепции программирования, как функции и переменные. А самое важное, я познакомился с миксинами.</p>
+                <p>Изначальное определение правильной структуры сайта является жизненно важным для любого нового проекта на Sass. Использование частичных шаблонов позволяет разделить CSS на более мелкие и более управляемые блоки кода, которые намного легче разрабатывать и развивать.</p>
+                <p>Не следует, однако забывать, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum illum non voluptas, deserunt aperiam maiores tenetur quas eaque culpa excepturi, minima sapiente magnam magni. Nulla unde facilis possimus dolorem recusandae?Tempore porro architecto voluptas iste dignissimos? Ratione vel dolorum natus, reiciendis iure fuga error esse accusamus, cupiditate facere enim autem facilis animi impedit tempore. Rem praesentium sed libero voluptatem minima?Ex odit consectetur corporis temporibus, aliquam cumque tempora voluptatibus repellendus culpa iste, ad quibusdam architecto aut debitis, veniam totam sequi? Necessitatibus aspernatur distinctio dicta ipsa assumenda libero accusamus odio pariatur! что укрепление и развитие структуры обеспечивает широкому кругу (специалистов) участие в формировании систем массового участия. Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании позиций, занимаемых участниками в отношении поставленных задач. Товарищи! постоянный количественный рост и сфера нашей активности способствует подготовки и реализации модели развития. С другой стороны рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</p>
+              </div>
+            </div>
+            <div class="articles__version" id="article2"> 
+              <div class="version__title">Приёмы в вёрстке, без которых не обходится ни один сайт</div>
+              <div class="version__date">20 августа 2019</div>
+              <div class="version__text"> 
+                <p>Таким образом начало повседневной работы по формированию позиции позволяет выполнять важные задания по разработке направлений прогрессивного развития. Разнообразный и богатый опыт новая модель организационной деятельности играет важную роль в формировании новых предложений. Товарищи! новая модель организационной деятельности играет важную роль в формировании систем массового участия.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, veniam sequi recusandae suscipit ea reprehenderit? Est, ea. Neque, maxime quas, porro voluptate quaerat impedit fugit quod blanditiis cumque velit odit.Ex, eaque dicta? Assumenda dicta numquam esse ut, vero aperiam cumque similique minima, magnam quam eius cum. Distinctio obcaecati hic, quo explicabo in, exercitationem eveniet, quis iste rem vel officia?In illum ratione laborum iste ipsum iure assumenda praesentium. Rerum excepturi dolore voluptatum exercitationem, expedita esse libero necessitatibus? Aliquam eveniet similique necessitatibus quae debitis minima tempore perspiciatis deserunt quam quos. Не следует, однако забывать, что укрепление и развитие структуры обеспечивает широкому кругу (специалистов) участие в формировании систем массового участия. Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании позиций, занимаемых участниками в отношении поставленных задач. Товарищи! постоянный количественный рост и сфера нашей активности способствует подготовки и реализации модели развития. С другой стороны рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</p>
+              </div>
+            </div>
+            <div class="articles__version" id="article3">
+              <div class="version__title">Самый необходимый набор Gulp плагинов</div>
+              <div class="version__date">8 августа 2019</div>
+              <div class="version__text">
+                <p>Для меня Sass был настоящим открытием. Долгое время я мучался написанием чистого, или “vanilla” CSS. В случаях с маленькими сайтами все было прекрасно, но на больших проектах CSS быстро отбивается от рук. Отладка превращается в настоящий ночной кошмар.Я познакомился с Sass и все изменилось. С Sass я мог разбить CSS на модули, чтобы упростить поиск проблем. Я мог использовать такие концепции программирования, как функции и переменные. А самое важное, я познакомился с миксинами.</p>
+                <p>Изначальное определение правильной структуры сайта является жизненно важным для любого нового проекта на Sass. Использование частичных шаблонов позволяет разделить CSS на более мелкие и более управляемые блоки кода, которые намного легче разрабатывать и развивать.</p>
+                <p>Не следует, однако забывать, что укрепление и развитие структуры обеспечивает широкому кругу (специалистов) участие в формировании систем массового участия. Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании позиций, занимаемых участниками в отношении поставленных задач. Товарищи! постоянный количественный рост и сфера нашей активности способствует подготовки и реализации модели развития. С другой стороны рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</p>
+              </div>
+            </div>
+            <div class="articles__version" id="article4">
+              <div class="version__title">Почему я выбрал Pug</div>
+              <div class="version__date">8 августа 2019</div>
+              <div class="version__text"> 
+                <p>Для меня Sass был настоящим открытием. Долгое время я мучался написанием чистого, или “vanilla” CSS. В случаях с маленькими сайтами все было прекрасно, но на больших проектах CSS быстро отбивается от рук. Отладка превращается в настоящий ночной кошмар.Я познакомился с Sass и все изменилось. С Sass я мог разбить CSS на модули, чтобы упростить поиск проблем. Я мог использовать такие концепции программирования, как функции и переменные. А самое важное, я познакомился с миксинами.</p>
+                <p>Изначальное определение правильной структуры сайта является жизненно важным для любого нового проекта на Sass. Использование частичных шаблонов позволяет разделить CSS на более мелкие и более управляемые блоки кода, которые намного легче разрабатывать и развивать.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, error debitis voluptate aperiam, dolore perferendis ullam laborum numquam nobis illum aspernatur harum perspiciatis, blanditiis omnis maxime. Quibusdam eum dolorum obcaecati.Neque praesentium provident doloremque earum distinctio ea aliquid repudiandae incidunt voluptatibus cum accusantium eos delectus libero esse eaque soluta dolore consectetur nesciunt omnis, veniam tempora sit facere optio! Doloribus, est!Reiciendis natus rem sapiente minus distinctio? Nesciunt, explicabo similique. Commodi odit est magnam necessitatibus quod assumenda corporis rerum delectus quos minus aliquam ipsam illum aut sunt, libero omnis saepe explicabo.Animi velit, harum illum sed doloribus necessitatibus repellat in veniam ea tempore dignissimos pariatur ut, eum assumenda sequi recusandae mollitia! Incidunt veniam porro blanditiis voluptas magnam? Quidem sed autem vel?Saepe, tempora doloribus alias atque reiciendis quod dicta quia. Eveniet, culpa natus necessitatibus quo deleniti velit? Dolore eaque esse qui, optio ullam aliquam architecto minus quidem dolores molestiae quo sit? Не следует, однако забывать, что укрепление и развитие структуры обеспечивает широкому кругу (специалистов) участие в формировании систем массового участия. Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании позиций, занимаемых участниками в отношении поставленных задач. Товарищи! постоянный количественный рост и сфера нашей активности способствует подготовки и реализации модели развития. С другой стороны рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer js-footer">
+        <div class="footer__block">
+          <div class="footer__row footer__row-border">
+            <div class="footer__col">
+              <div class="footer__menu">
+                <nav class="menu__vertical">
+                  <ul class="menu__list">
+                    <li class="menu__item-footer"><a class="menu__link-footer" href="my-works.html"> Мои работы</a></li>
+                    <li class="menu__item-footer"><a class="menu__link-footer" href="about.html"> Обо мне</a></li>
+                    <li class="menu__item-footer"><a class="menu__link-footer" href="blog.html"> Блог</a></li>
+                    <li class="menu__item-footer"><a class="menu__link-footer" href="index.html"> Авторизация</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <div class="footer__col">
+              <div class="footer__socials">
+                <ul class="socials__footer">
+                  <li class="socials__item-footer"><a class="social__link vk" href="https://vk.com/vitalzybailo" target="blank">
+                      <svg class="icon-footer">
+                        <use xlink:href="assets/images/spritenew.svg#vk"></use>
+                      </svg></a></li>
+                  <li class="socials__item-footer"><a class="social__link" href="https://github.com/vzybailo" target="blank">
+                      <svg class="icon-footer">
+                        <use xlink:href="assets/images/spritenew.svg#git"></use>
+                      </svg></a></li>
+                  <li class="socials__item-footer"><a class="social__link" href="https://www.linkedin.com/feed/?trk=onboarding-landing" target="blank">
+                      <svg class="in icon-footer">
+                        <use xlink:href="assets/images/spritenew.svg#in"></use>
+                      </svg></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer__row footer__row-border">
+            <div class="footer__col">
+              <div class="footer__text">
+                <p> Всегда пишите код так, будто сопровождать его будет склонный к насилию психопат, который знает, где вы живете. </p>
+              </div>
+            </div>
+            <div class="footer__col">
+              <div class="footer__author">
+                <p>— Martin Golding</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__line">@ Виталий Зыбайло 2019</div>
+      </footer>
+    </div>
+  </body>
+</html>
